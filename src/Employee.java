@@ -30,10 +30,12 @@ public class Employee implements Comparable<Employee> {
     }
 
     public void show(){
+        System.out.println("==============================");
         System.out.println("id: " + id);
         System.out.println("lasName: " + lastName);
         System.out.println("firstName: " + firstName);
         System.out.println("position: " + position);
+        System.out.println("==============================");
     }
 
     @Override
